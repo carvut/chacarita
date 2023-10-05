@@ -1,0 +1,183 @@
+.rojo{
+    background-color: rgba(255, 0, 0, 0.911);
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 38px;
+    text-align: center;
+}
+.navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: darkblue;
+}
+.orden{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: "escudo1 titulo" "escudo1 navegador2";
+    text-align: center;
+}
+.escudo1{
+    grid-area: escudo1;
+    width: 180px;
+    height: 200px;
+    margin: auto;
+}
+.titulo{
+    grid-area: titulo;
+}
+.navegador2{
+    grid-area: navegador2;
+}
+ul{
+    list-style-type: none;
+  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.jugadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 800px; 
+}
+
+.jugador1{
+    width: 380px;
+}
+
+img{
+    width:100%;
+    height: 100%;
+}
+
+.igcolor{
+    color: red;
+    width: 30px;
+    height: 30px;
+}
+.twcolor{
+    color:lightblue;
+    width: 30px;
+    height: 30px;
+}
+.ytcolor{
+    color: red;
+    width: 30px;
+    height: 30px;
+}
+.fbcolor{
+    color: blue;
+    width: 30px;
+    height: 30px;
+}
+.negro{
+    background-color: rgba(0, 0, 0, 0.966);
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+}
+.centro{
+    width: 150px;
+    height: 100px;
+    margin: 2em;
+    text-align: center;
+}
+h2{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: normal;
+        font-size: 28px;
+        text-align: center;
+}
+.coquito{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "coquito1 coquito2" "coquito1 coquito3";
+    text-align: center;
+    margin: 2em;
+    justify-items: center;
+}
+.coquito1{
+    grid-area: coquito1;
+    width: 300px;
+    height: 650px;
+    margin: auto;
+}
+.coquito2{
+    grid-area: coquito2;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.coquito3{
+    grid-area: coquito3;
+    width: 300px;
+    height: 120px;
+    margin: auto;
+}
+@media (max-width:850px){
+    .coquito{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+    .coquito1{
+        width: 100px;
+        height: 200px;
+        margin: auto;
+    }
+    .coquito2{
+        width: 70px;
+        height: 70px;
+        margin: auto;
+    }
+    .coquito3{
+        width: 100px;
+        height: 40px;
+        margin: auto;
+    }
+    .orden{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 21px;
+    }
+    ul{
+        font-size: 11px;
+    }
+    .escudo1{
+        width: 90px;
+        height: 100px;
+        margin: auto;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
