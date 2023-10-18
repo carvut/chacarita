@@ -18,7 +18,7 @@ a{
     color: black;
 }
 a:hover{
-    color: darkblue;
+    color: white;
 }
 .orden{
     display: grid;
@@ -51,11 +51,11 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 800px; 
+    height: 600px; 
 }
 
 .jugador1{
-    width: 380px;
+    width: 350px;
 }
 
 img{
