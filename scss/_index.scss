@@ -1,0 +1,23 @@
+.jugadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 750px; 
+    margin-left: -1%;
+   margin-right: -1%;
+}
+
+.jugador1{
+    width: 380px;
+}
+@media (max-width:850px){
+    .jugador1{
+        display: none;
+    }
+    .jugador2{
+        background-image: url(../img/imagen\ responsiv\ index.jpg);
+        background-size: contain;
+        margin-left: -1%;
+        margin-right: -1%;
+    }
+    }

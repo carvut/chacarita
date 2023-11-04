@@ -1,0 +1,73 @@
+h2{
+    @extend %letra;
+    font-size: 28px;
+    text-align: center;
+}
+.coquito{
+display: grid;
+grid-template-columns: 20% 80%;
+grid-template-rows: 50% 50%;
+grid-template-areas: "coquito1 coquito2" "coquito1 coquito3";
+text-align: center;
+margin: 2em;
+justify-items: center;
+height: 800px;
+}
+.coquito1{
+grid-area: coquito1;
+width: 300px;
+height: 650px;
+margin: auto;
+}
+.coquito2{
+grid-area: coquito2;
+width: 200px;
+height: 200px;
+margin: auto;
+}
+.coquito3{
+grid-area: coquito3;
+width: 300px;
+height: 120px;
+margin: auto;
+}
+@media (max-width:850px){
+    .coquito{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+    .coquito1{
+        width: 100px;
+        height: 200px;
+        margin: auto;
+    }
+    .coquito2{
+        width: 70px;
+        height: 70px;
+        margin: auto;
+    }
+    .coquito3{
+        width: 100px;
+        height: 40px;
+        margin: auto;
+    }
+    .orden{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 21px;
+    }
+    ul{
+        font-size: 11px;
+    }
+    .escudo1{
+        width: 90px;
+        height: 100px;
+        margin: auto;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
